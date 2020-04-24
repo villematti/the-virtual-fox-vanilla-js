@@ -124,6 +124,10 @@ body {
 }
 
 .fox-eating {
+  top: 362px;
+}
+
+.fox-egg {
   top: 289px;
   left: 248px;
 }
