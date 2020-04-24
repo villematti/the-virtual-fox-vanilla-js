@@ -85,8 +85,14 @@ body {
   top: 0;
   left: 0;
   right: 0;
+}
+
+.modal-inner {
   background-color: rgb(89, 24, 150);
   color: white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
 }
 
 .modal:empty {

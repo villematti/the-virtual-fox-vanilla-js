@@ -21,7 +21,6 @@ const gameState = {
   poopTime: -1,
   tick() {
     this.clock++;
-    console.log("tick ", this.clock);
     if (this.clock === this.wakeTime) {
       this.wake();
     } else if (this.clock === this.hungryTime) {

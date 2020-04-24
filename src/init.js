@@ -3,7 +3,6 @@ import { TICK_RATE } from "./constants";
 import initButtons from "./buttons";
 
 async function init() {
-  console.log("Starting game");
   initButtons(handleUserAction);
   let nextTimeToTick = Date.now();
 
